@@ -58,7 +58,7 @@ class Diretor:
                    .set_sanduiche("Sanduiche Vegetariano")
                    .set_tipo_pao("Integral")
                    .set_bebida("Suco de Laranja")
-                   .set_tamanho_bebida("Médio")
+                   .set_tamanho_bebida("Medio")
                    .set_acompanhamento("Salada de Folhas")
                    .set_sobremesa("Salada de Frutas")
                    .build()
@@ -120,14 +120,14 @@ if __name__ == "__main__":
         sobremesa="Brownie"
     )
 
-    print("Combo Vegetariano:\n")
+    print("Combo Vegetariano:")
     print(combo_veg.mostrar_pedido())
-    
-    print("Combo Carnivoro:\n")
+    print("\n")
+    print("Combo Carnivoro:")
     print(combo_carni.mostrar_pedido())
-    
-    print("Combo Especial:\n")
+    print("\n")
+    print("Combo Especial:")
     print(combo_especial.mostrar_pedido())
-    
+    print("\n")
     print("Pedido Customizado:")
     print(pedido_custom.mostrar_pedido())
