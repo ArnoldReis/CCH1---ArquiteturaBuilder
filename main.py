@@ -1,4 +1,3 @@
-
 class Pedido:
     def __init__(self):
         self.sanduiche = None
@@ -107,7 +106,6 @@ class Diretor:
                    .build()
         )
 
-
 if __name__ == "__main__":
     combo_veg = Diretor.criar_combo_vegetariano()
     combo_carni = Diretor.criar_combo_carnivoro()
@@ -122,11 +120,14 @@ if __name__ == "__main__":
         sobremesa="Brownie"
     )
 
-    print("Combo Vegetariano:")
+    print("Combo Vegetariano:\n")
     print(combo_veg.mostrar_pedido())
-    print("\nCombo Carnivoro:")
+    
+    print("Combo Carnivoro:\n")
     print(combo_carni.mostrar_pedido())
-    print("\nCombo Especial:")
+    
+    print("Combo Especial:\n")
     print(combo_especial.mostrar_pedido())
-    print("\nPedido Customizado:")
+    
+    print("Pedido Customizado:")
     print(pedido_custom.mostrar_pedido())
